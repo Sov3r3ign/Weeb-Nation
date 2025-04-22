@@ -1,3 +1,3 @@
-# Weebnation <br>
+# Weeb Nation <br>
 
-An anime landing page
+<p>An anime website where you can find the most popular and upcoming anime.</p>
