@@ -1,129 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Weeb Nation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Box-Icons -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-		<title>Anime Website</title>
-		<link
-			rel="stylesheet"
-			href="style.css" />
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
-		<!-- Box-Icons -->
-		<link
-			rel="stylesheet"
-			href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-	</head>
-	<body>
-		<header>
-			<a
-				href="#"
-				class="logo">
-				<i class="bx bxs-movie"></i> Anime
-			</a>
-			<div
-				class="bx bx-menu"
-				id="menu-icon"></div>
 
-			<!--Menu-->
-			<ul class="navbar">
-				<li>
-					<a
-						href="#home"
-						class="home-active"
-						>Home</a
-					>
-				</li>
-				<li><a href="#anime">Anime</a></li>
-				<li><a href="#Upcoming">Upcoming</a></li>
-				<li><a href="#newsletter">Newsletter</a></li>
-			</ul>
-			<a
-				href="#"
-				class="btn"
-				>Sign In</a
-			>
-		</header>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <i class='bx bxs-movie'></i> Anime
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
 
-		<!--Home-->
-		<section
-			class="home swiper"
-			id="home">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide container">
-					<img
-						src="img/home1.jpg"
-						alt="" />
-					<div class="home-text">
-						<span>Manga Verse</span>
-						<h1>Monster</h1>
-						<a
-							href="#"
-							class="btn"
-							>Watch/Book Now</a
-						>
-						<a
-							href="#"
-							class="play">
-							<i class="bx bx-play"></i>
-						</a>
-					</div>
-				</div>
-				<!--Box 2-->
-				<div class="swiper-slide container">
-					<img
-						src="img/home2.jpg"
-						alt="" />
-					<div class="home-text">
-						<span>Shounen</span>
-						<h1>Bleach Visored</h1>
-						<a
-							href="#"
-							class="btn"
-							>Watch/Book Now</a
-						>
-						<a
-							href="#"
-							class="play">
-							<i class="bx bx-play"></i>
-						</a>
-					</div>
-				</div>
-				<!--Box 3-->
-				<div class="swiper-slide container">
-					<img
-						src="img/home3.jpg"
-						alt="" />
-					<div class="home-text">
-						<span>Shounen</span>
-						<h1>One Piece</h1>
-						<a
-							href="#"
-							class="btn"
-							>Watch/Book Now</a
-						>
-						<a
-							href="#"
-							class="play">
-							<i class="bx bx-play"></i>
-						</a>
-					</div>
-				</div>
-			</div>
+       <!--Menu-->
+       <ul class="navbar">
+        <li><a href="#home" class="home-active">Home</a></li>
+        <li><a href="#shows">Upcoming</a></li>
+        <li><a href="#popular">Popular</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+       </ul>
+       <a href="#" class="btn">Sign In</a>
+    </header>
 
-			<div class="swiper-pagination"></div>
-		</section>
+    <!--Home-->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="img/umbreon.jpg" alt="Umbreon Movie">
+                <div class="home-text">
+                    <span>Pokemon Verse</span>
+                    <h1>Pokemon</h1>
+                    <a href="#" class="btn">Watch/Book Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play'></i>
 
-		<!-- Swiper JS -->
-		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-		<!--my Script JS-->
-		<script src="script.js"></script>
-	</body>
+                    </a>
+                </div>
+                
+            </div>
+            <!--Box 2-->
+            <div class="swiper-slide container">
+                <img src="img/home2.jpg" alt="">
+                <div class="home-text">
+                    <span>Shounen</span>
+                    <h1>Bleach <br> Visord</h1>
+                    <a href="#" class="btn">Watch/Book Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                        
+                    </a>
+                </div>
+                
+            </div>
+            <!--Box 3-->
+            <div class="swiper-slide container">
+                <img src="img/home3.jpg" alt="">
+                <div class="home-text">
+                    <span>Shounen</span>
+                    <h1>One Piece</h1>
+                    <a href="#" class="btn">Watch/Book Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                        
+                    </a>
+                </div>
+                
+            </div>
+          </div>
+          
+          <div class="swiper-pagination"></div>
+    </section>
+    <!--Shows-->
+    <section class="shows" id="shows">
+        <h2 class="heading"> New this week</h2>
+
+        <!--Shows Container-->
+    <div class="shows-container">
+        <div class="box">
+            <div class="box-img">
+                <img src="img/umbreon.jpg" alt="">
+            </div>
+            <h3>Pokemon</h3>
+            <span>60 min | Adventure</span>
+        </div>
+
+
+        <!--box 2-->
+    <div class="box">
+        <div class="box-img">
+            <img src="img/home10.jpg" alt="">
+        </div>
+        <h3>My hero Academia</h3>
+        <span>Season 1 | Adventure | 13 Episodes</span>
+    </div>
+
+
+        <!--box 3-->
+        <div class="box">
+            <div class="box-img">
+                <img src="img/home14.jpg" alt="">
+            </div>
+            <h3>Jujutsu Kaisen</h3>
+            <span>Season 2 | Supernatural | 24 Episodes</span>
+        </div>
+
+        <!--box 4-->
+        <div class="box">
+            <div class="box-img">
+                <img src="img/home5.jpg" alt="">
+            </div>
+            <h3>Naruto</h3>
+            <span>Adventure, Fantasy | 220 Episodes</span>
+        </div>
+
+        <!--box 5-->
+        <div class="box">
+            <div class="box-img">
+                <img src="img/home13.jpg" alt="">
+            </div>
+            <h3>Your Name</h3>
+            <span>90 min | Drama | Movie</span>
+        </div>
+
+        <!--box 6-->
+        <div class="box">
+            <div class="box-img">
+                <img src="img/home12.jpg" alt="">
+            </div>
+            <h3>A Silent Voice</h3>
+            <span>100 min | Drama | Movie</span>
+        </div>
+
+        <!--box 7-->
+        <div class="box">
+            <div class="box-img">
+                <img src="img/home11.jpg" alt="">
+            </div>
+            <h3>Haikyuu!</h3>
+            <span>Season 2 | Sport | 20 Episodes</span>
+        </div>
+
+        <!--box 8-->
+        <div class="box">
+            <div class="box-img">
+                <img src="img/home9.jpg" alt="">
+            </div>
+            <h3>Hajime No Ippo</h3>
+            <span>Sport, Boxing | 122 Episodes</span>
+        </div>
+
+        <!--box 9-->
+        <div class="box">
+            <div class="box-img">
+                <img src="img/home8.jpg" alt="">
+            </div>
+            <h3>Saiki. K</h3>
+            <span>Season 1 | Seinen | 12 Episodes</span>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <!--Popular anime-->
+    <section class="popular" id="popular">
+        <h2 class="heading">Popular</h2>
+        <!--Popular container-->
+        <div class="popular-container swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="img/home7.jpg" alt="">
+                    </div>
+                    <h3>Sword Art Online</h3>
+                    <span>Season 1 | Game | 21 Episodes</span>
+                </div>
+        
+        
+                <!--box 2-->
+                <div class="swiper-slide box">
+                  <div class="box-img">
+                    <img src="img/home6.jpg" alt="">
+                  </div>
+                  <h3>Blue Lock vs Japan U19</h3>
+                  <span>Season 2 | Sport | 14 Episodes</span>
+               </div>
+        
+        
+                <!--box 3-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="img/home4.jpg" alt="">
+                    </div>
+                    <h3>The Promised Neverland</h3>
+                    <span>Season 1 | Horror | 13 Episodes</span>
+                </div>
+        
+                <!--box 4-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="img/pop1.jpg" alt="">
+                    </div>
+                    <h3>Dragon Ball Daima</h3>
+                    <span>Adventure, Fantasy | 24 Episodes</span>
+                </div>
+        
+                <!--box 5-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="img/pop2.png" alt="">
+                    </div>
+                    <h3>Sakamoto Days</h3>
+                    <span>Season 1 | Thriller | 11 Episodes</span>
+                </div>
+        
+                <!--box 6-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="img/pop3.webp" alt="">
+                    </div>
+                    <h3>Death Note</h3>
+                    <span>Season 1 | Crime & Thriller | 39 Episodes</span>
+                </div>
+        
+                <!--box 7-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="img/pop4.png" alt="">
+                    </div>
+                    <h3>Chainsaw Man</h3>
+                    <span>Season 1 | Supernatural, Gore | 12 Episodes</span>
+                </div>
+        
+                <!--box 8-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="img/pop5.jpg" alt="">
+                    </div>
+                    <h3>Attack On Titan</h3>
+                    <span>Season 4 | Supernatural | 13 Episodes</span>
+                </div>
+        
+                <!--box 9-->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="img/pop6.png" alt="">
+                    </div>
+                    <h3>Initial D</h3>
+                    <span>Season 1 | Race | 24 Episodes</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Newsletter-->
+    <section class="newsletter" id="newsletter">
+        <h2>Subscribe to Get <br>Newsletter</h2>
+        <form action="">
+            <input type="email" class="email" placeholder=" Enter your Email..." required>
+            <input type="submit" value="Subscribe" class="btn">
+        </form>
+
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <a href="#" class="logo">
+            <i class='bx bxs-movie'></i> Anime
+        </a>
+        <div class="social">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </section>
+
+    <!--Copyright-->
+    <div class="copyright">
+        <p>&#169; Sovereign All Rights Reserved.</p>
+    </div>
+
+
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--my Script JS-->
+    <script src="script.js"></script>
+</body>
 </html>
